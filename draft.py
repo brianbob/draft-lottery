@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
 import random
+import sys
 
-# Create our Player Array
-players = ["Brad", "Brian", "Gabe", "Dad (Jim)", "Mark", "Max", "Kevin", "Kyle", "Savannah", "Ted"]
+# Create our Player Array from the list of players.
+players = sys.argv[1:]
 
 # Shuffle the Array 10000 times
 for x in range(10000):
