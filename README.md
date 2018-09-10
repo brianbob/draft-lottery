@@ -26,6 +26,23 @@ python draft.py one two three four five six seven
 
 The program will randomize the list 10,000 times and output it to the screen.
 
+```
+Shuffle number #1
+Shuffle number #2
+...
+Shuffle number #9999
+Shuffle number #10000
+
+Now for the FINAL draft order!
+seven
+six
+three
+five
+four
+one
+two
+```
+
 ## Authors
 
 * **Brian Bridge**
